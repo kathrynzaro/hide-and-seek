@@ -55,7 +55,7 @@ function handleGuess(correctSpot, userGuess) {
         treeContainer.classList.add('face');
     } else {
         boulderContainer.classList.add('face');
-    };
+    }
     // then if the user guess is correct, increment the correct guesses
     // update the DOM to show this change to the user (including the losses, not tracked directly in state)
     totalEl.textContent = totalGuesses;
